@@ -7,12 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endians", "Endians\Endians.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endians.Tests", "Endians.Tests\Endians.Tests.csproj", "{23B2E1E0-2350-460B-82EC-304262A8E23F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{3D0F0F02-9336-48CC-817E-82B3FD5C6B9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D0F0F02-9336-48CC-817E-82B3FD5C6B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0F0F02-9336-48CC-817E-82B3FD5C6B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D63B3FA2-22CA-4971-A8BE-0E61EF1EDEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D63B3FA2-22CA-4971-A8BE-0E61EF1EDEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D63B3FA2-22CA-4971-A8BE-0E61EF1EDEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU

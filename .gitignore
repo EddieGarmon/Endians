@@ -3,6 +3,7 @@
 *.g.cs
 
 Artifacts/*
+.nuke/*
 
 **/.vs/*
 
