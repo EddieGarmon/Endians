@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net6.0;net7.0</TargetFrameworks>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+
+    <PackageId>Endians</PackageId>
+    <Title>Support for Intel and Motorola binary formats</Title>
+    <PackageTage>binary;encoding;big;little;Motorola;Intel</PackageTage>
+    <Authors>Eddie Garmon</Authors>
+    <Copyright>Copyright (c) 2018-2023</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <IncludeSource>false</IncludeSource>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+
+    <Version>1.5.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Memory" Version="4.5.5" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
