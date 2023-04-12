@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endians", "Endians\Endians.csproj", "{D63B3FA2-22CA-4971-A8BE-0E61EF1EDEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endians.Tests", "Endians.Tests\Endians.Tests.csproj", "{23B2E1E0-2350-460B-82EC-304262A8E23F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D63B3FA2-22CA-4971-A8BE-0E61EF1EDEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63B3FA2-22CA-4971-A8BE-0E61EF1EDEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63B3FA2-22CA-4971-A8BE-0E61EF1EDEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63B3FA2-22CA-4971-A8BE-0E61EF1EDEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B2E1E0-2350-460B-82EC-304262A8E23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B2E1E0-2350-460B-82EC-304262A8E23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B2E1E0-2350-460B-82EC-304262A8E23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B2E1E0-2350-460B-82EC-304262A8E23F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {230E69D3-9DA2-4A02-8BC4-EC403AEA6A43}
+	EndGlobalSection
+EndGlobal
